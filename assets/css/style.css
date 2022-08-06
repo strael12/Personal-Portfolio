@@ -1,0 +1,136 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.75);
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    background: #111;
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #141414;
+    padding: 25px 0px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.container-content {
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: #141414;
+}
+
+.header-weapped{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.bar-icon{
+    font-size: 30px;
+    color: #fff;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+.banner-title{
+    padding-top: 94px;
+    color: #fff;
+}
+
+.banner-title h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+    
+}
+
+.banner-title p {
+    margin-top: 31px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: rgba(255,255,255,0.75);
+    text-transform: uppercase;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-img {
+    margin-top: 53px;
+}
+
+.main-banner img{
+    width: 1410px;
+    height: 100%;
+    margin: auto;
+}
+.main-banner{
+    margin-top: 100px;
+}
+
+
+
+/* Responsividade */
+
+/* @media (min-width: 576px) {
+    .header {
+        padding: 53px 0px;
+        transition: all 0.3s ease 0s;
+    }
+}
+@media (min-width: 768px) {
+    .header {
+        padding: 53px 0px;
+        transition: all 0.3s ease 0s;
+    }
+}
+@media (min-width: 992px) {
+    .header {
+        padding: 53px 0px;
+        transition: all 0.3s ease 0s;
+    }
+}
+@media (min-width: 1200px) {
+    .header {
+        padding: 53px 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .comntainer{
+        width: 80%;
+    }
+} */
+
