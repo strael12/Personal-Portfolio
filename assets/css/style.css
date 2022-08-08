@@ -102,8 +102,41 @@ body {
     margin-top: 100px;
 }
 
+.detail-container1 h5{
+    margin-top: 31px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: rgba(255,255,255,0.75);
+}
 
+.detail-container1 h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #fff;
 
+}
+
+.notice-row{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+}
+/* 
+.notice-column{
+    width: 100%;
+    max-width: 100%;
+} */
+/* 
+@media(min-width: 992px){
+    .notice-row{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+} */
 /* Responsividade */
 
 /* @media (min-width: 576px) {
