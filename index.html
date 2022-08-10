@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Andle - Personal Portfolio Bootstrap 5 Template</title>
 </head>
-
 <body>
     <header class="sticky-header header">
         <div class="container">
@@ -21,10 +20,23 @@
                 <div class="logo">
                     <img src="./assets/img/logo.webp" alt="" />
                 </div>
-                <nav class="bar-icon">
+                <nav class="bar-icon" id="bar-icon">
                     <!-- sandwich -->
-                    <i class="fa fa-bars" aria-hidden="false"></i>
+                    <a class="canvas"> <i class="fa fa-bars" aria-hidden="false"></i></a>
+                    <!-- create off canvas menu -->
                 </nav>
+                <div class="off-canvas-menu">
+                    <!-- <div class="logo2">
+                        <img src="./assets/img/logo-2.webp" alt="" />
+                    </div> -->
+                    <ul> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Project</a></li>
+                        <li><a href="portfolio.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -122,6 +134,7 @@
     <!-- <section class="main-banner">
         <img src="./assets/img/project-details.webp" alt="">
     </section>  -->
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
