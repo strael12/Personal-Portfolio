@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="https://htmldemo.net/andle/andle/assets/images/favicon.png">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Andle - Personal Portfolio Bootstrap 5 Template</title>
 </head>
+
 <body>
+    <div class="backdrop hidden">
+    </div>
     <header class="sticky-header header">
         <div class="container">
             <div class="header-weapped">
@@ -27,9 +29,15 @@
                 </nav>
                 <div class="off-canvas-menu">
                     <div class="logo2">
-                        <img src="./assets/img/logo-3.webp" alt="" />
+                        <div>
+                            <img src="./assets/img/logo-3.webp" alt="" />
+                        </div>
+                        <div class="close">
+                            <span><img src="./assets/img/close.png"></span>
+                        </div>
                     </div>
-                    <ul class="toggle-list"> 
+
+                    <ul class="toggle-list">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Project</a></li>
@@ -39,6 +47,7 @@
                 </div>
             </div>
         </div>
+
     </header>
     <section class="container-content">
         <div class="banner-title">
@@ -80,11 +89,11 @@
         </section>
         <section class="section-02">
             <h2>Ideas & Concept</h2>
-            <p>Edden’s Villa is an international project located in Costa Rica. 
-             It has various different levels, whom are embedded into the unevenness of the terrain.
-              This project seeks to integrate passive strategies for energy saving, 
-              such as the inclusion of as much natural light as possible as well as having green
-               roofs with lots of vegetation in them. <br> The geometry of this house combines design
+            <p>Edden’s Villa is an international project located in Costa Rica.
+                It has various different levels, whom are embedded into the unevenness of the terrain.
+                This project seeks to integrate passive strategies for energy saving,
+                such as the inclusion of as much natural light as possible as well as having green
+                roofs with lots of vegetation in them. <br> The geometry of this house combines design
                 with nature into the structure of the house, which makes it unique amongst other neighboring places.</p>
         </section>
 
@@ -134,7 +143,9 @@
     <!-- <section class="main-banner">
         <img src="./assets/img/project-details.webp" alt="">
     </section>  -->
+    <script src="https://kit.fontawesome.com/99f5b2bea5.js" crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
+
 </body>
 
 </html>

@@ -35,7 +35,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 6;
     background-color: #141414;
     padding: 25px 0px;
 }
@@ -216,6 +216,17 @@ body {
     display: flex;
     margin-top: 22px;
     margin-left: 18px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.close{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.close img{
+    width: 30px;
 }
 
 .off-canvas-menu a {
@@ -231,6 +242,7 @@ body {
 
 .is-active {
     transform: none;
+
 }
 
 .canvas-click {
@@ -243,6 +255,22 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.hidden{
+    display: none;
+}
+
+.backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(9, 9, 9, 0.75);
+    z-index: 5 ;
+    backdrop-filter: blur(3px);
+}
+
 
 /* 
 .notice-column{
