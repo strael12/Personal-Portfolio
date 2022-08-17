@@ -272,6 +272,128 @@ body {
 }
 
 
+
+
+
+
+
+.section-05{
+    margin-top: 60px;
+    width: 100%;
+    border:1px solid rgba(255,255,255,0.15);
+}
+
+.section-05 textarea{
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #fff;
+    background: none;
+    border-bottom: 1px solid rgba(white, 0.15);
+    
+
+}
+.ajuste{
+    padding: 30px;
+}
+
+.formulario{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding-top: 60px;
+    /* padding-left: 30px; 
+    padding-right: 30px; */
+    
+}
+
+.formulario input{
+    background: none;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(white, 0.15);
+    outline: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: rgba(white, 0.5);
+    color: #fff;
+}
+
+.titleh1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+
+
+/* Andre */
+
+
+.section-04 p {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.section-04 img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.autor p {
+    font-size: 14px;
+    margin-top: -33px;
+}
+
+.autor h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    margin-top: 14px;
+}
+
+.icon-item {
+    margin-top: -18px;
+}
+
+.icon-item img {
+    margin-left: 23px;
+    width: 20px;
+}
+
+.section-04 h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+    .section-04 p {
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "Inter", sans-serif;
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.75);
+    }
+}
+
 /* 
 .notice-column{
     width: 100%;
