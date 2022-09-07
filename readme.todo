@@ -1,0 +1,13 @@
+☐ install express
+☐ install mongoose
+☐ install nodemon
+☐ install ejs view engine
+☐ transformar o projeto de html em ejs
+☐ configurar o arquivo index.js para que ele possa se comunicar com o arquivo index.ejs e renderize o html
+
+amanha:
+
+☐ Conectar o banco de dados com mongoose
+
+
+☐ observar o para concluir o backend https://github.com/strael12/mongoose-docs.git 

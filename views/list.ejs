@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-100">
+        <ul class="main-list">
+            <% users.forEach(function(user) {%> 
+                <li>
+                    <p><strong>Nome:</strong> <%- user.name; %></p>
+                    <p><strong>E-mail:</strong> <%- user.email; %></p>
+                    <p><strong>Subject:</strong> <%- user.subject; %></p>
+                    <p><strong>Textarea:</strong> <%- user.textarea; %></p>
+                    <a class="delete" href="/delete/<%- user.id; %>">Deletar</class=>
+                    <a class="update" href="/update/<%- user.id; %>">Editar</a>
+                </li>
+            <% }) %> 
+        </ul>
+    </div>
+    <div class="container">
+        <div><a href="/create" class="btn default">Cadastrar novo cliente</a></div>
+    </div>
+    
+</body>
+</html>

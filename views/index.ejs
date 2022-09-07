@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- criar um html responsivo -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://htmldemo.net/andle/andle/assets/images/favicon.png"
+    />
+    <!-- bootstrap -->
+    <title>Andle - Personal Portfolio Bootstrap 5 Template</title>
+  </head>
+
+  <body>
+    <div class="backdrop hidden"></div>
+    <header class="sticky-header header">
+      <div class="container">
+        <div class="header-weapped">
+          <div class="logo">
+            <img src="/img/logo.webp" alt="" />
+          </div>
+          <nav class="bar-icon" id="bar-icon">
+            <!-- sandwich -->
+            <a class="canvas">
+              <i class="fa fa-bars" aria-hidden="false"></i
+            ></a>
+            <!-- create off canvas menu -->
+          </nav>
+          <div class="off-canvas-menu">
+            <div class="logo2">
+              <div>
+                <img src="/img/logo-3.webp" alt="" />
+              </div>
+              <div class="close">
+                <span><img src="/img/close.png" /></span>
+              </div>
+            </div>
+
+            <ul class="toggle-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Project</a></li>
+              <li><a href="portfolio.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-content">
+      <div class="banner-title">
+        <h2>Single Portfolio</h2>
+        <p>web design, Mobile App</p>
+      </div>
+      <div class="banner-img">
+        <img src="/img/project-details.webp" alt="" />
+      </div>
+    </section>
+
+    <main class="container-content">
+      <div class="detail-container1">
+        <h5>THE CHALLENGE</h5>
+        <h1>
+          Create the system design for
+          <br />
+          ATA Finance Banking
+        </h1>
+      </div>
+      <section class="notice-row">
+        <div class="notice-colum">
+          <h5>THE CHALLENGE</h5>
+          <p>
+            Poland ATA Finance <br />
+            Banking
+          </p>
+        </div>
+        <div class="notice-column">
+          <h5>DATE</h5>
+          <p>March 25, 2024</p>
+        </div>
+
+        <div class="notice-column">
+          <h5>TEAM</h5>
+          <p>
+            Aslam - Developer <br />
+            Logan - U/UX Designer <br />
+            Lina - Tester
+          </p>
+        </div>
+        <div class="notice-column">
+          <h5>SERVICE</h5>
+          <p>Strategy, UI/UX Interaction, Mobile Design</p>
+        </div>
+      </section>
+      <section class="section-02">
+        <h2>Ideas & Concept</h2>
+        <p>
+          Edden’s Villa is an international project located in Costa Rica. It
+          has various different levels, whom are embedded into the unevenness of
+          the terrain. This project seeks to integrate passive strategies for
+          energy saving, such as the inclusion of as much natural light as
+          possible as well as having green roofs with lots of vegetation in
+          them. <br />
+          The geometry of this house combines design with nature into the
+          structure of the house, which makes it unique amongst other
+          neighboring places.
+        </p>
+      </section>
+
+      <section class="section-03">
+        <div class="sec-img1">
+          <img src="/img/dec-images-1.webp" alt="" />
+        </div>
+        <div class="sec-img2">
+          <img src="/img/dec-images-2.webp" alt="" />
+        </div>
+      </section>
+      <section class="section-04">
+        <div>
+          <p class="par">
+            “This is the testimonial or review from clients, then will
+            <br />
+            is lorem ispum dolor sit amet, consectetur adipiscing elit sed do
+            <br />
+            eiusmod tempor incididunt ut labore.”
+          </p>
+        </div>
+        <div class="autor">
+          <h4>Adam Levine</h4>
+          <p class="p-dir">Director of Poland ATA Finance Banking</p>
+        </div>
+        <div>
+          <img class="img" src="/img/dec-images-3.webp" alt="" />
+        </div>
+        <div class="social">
+          <h5>Share on social</h5>
+          <div class="icon-item">
+            <img src="/icons/twitter-brands.svg" alt="" />
+            <img src="icons/facebook-brands.svg" alt="" />
+            <img src="/icons/google-plus-g-brands.svg" alt="" />
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <!-- Formulário -->
+      <h1 class="titleh1">Let’s start work together</h1>
+      <section class="section-05">
+        <div class="ajuste">
+          <form action="/create" class="formulario" method="POST">
+            <input
+              id="name"
+              name="name"
+              type="nome"
+              placeholder="Enter your name"
+            />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="youremail@domain.com"
+            />
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              placeholder="Subject(optional)"
+            />
+            <textarea
+              id="textarea"
+              name="textarea"
+              type="text"
+              placeholder="Here goes your message"
+            ></textarea>
+            <button id="send" type="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/99f5b2bea5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/modules.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
