@@ -71,8 +71,8 @@ app.get("/update/:id", async (req, res, next) => {
   
 // Atualiza no banco de dados assim que um post é feito
 
-app.post("/update/:id", async(req,res,next)=>{
-  const clientUserId = req.params.id;
+app.post("/update", async(req,res,next)=>{
+  const clientUserId = req.body.id;
   if(clientUserId){
     await Client.updateOne({_id:clientUserId},{
       name:req.body.name,
@@ -82,7 +82,7 @@ app.post("/update/:id", async(req,res,next)=>{
     });
     res.redirect("/read");
   } else {
-    res.render("error");
+    res.status(404).render("error");
   }
 })
 
