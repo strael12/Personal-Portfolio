@@ -432,3 +432,98 @@ ul.main-list{
     margin-top: 8px;
 }
 
+.base-footer{
+    padding-top: 60px;
+    text-align: center;
+    
+}
+
+.base-footer a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.footer{
+    background: #111;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a{
+    margin-left: 20px;
+    
+}
+.social li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul{
+    padding-left: 0px;
+    
+}
+
+.social{
+    margin-top: 20px;
+    
+}
+
+.social li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+}
+
+
+
+#twitter{
+    color: #1da1f2;
+}
+#behance{
+    color: #1769ff;
+}
+#dribbble{
+    color: #ea4c89;
+}
+#github{
+    color: rgb(255, 255, 255);
+}
+
+.link-mail{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+
+}
+
+.link-mail h4{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(255,255,255,0.5);
+}
+
+.link-mail h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #89715b;
+    margin-top: 10px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.link-mail h2:hover{
+    color: #fff;
+}
