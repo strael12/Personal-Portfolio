@@ -1,0 +1,27 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "☐ install express ☐ install mongoose ☐ install nodemon ☐ install ejs view engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon assets/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strael12/Personal-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strael12/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/strael12/Personal-Portfolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "nodemon": "^2.0.19"
+  }
+}
